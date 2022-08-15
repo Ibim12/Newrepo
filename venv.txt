@@ -1,0 +1,102 @@
+Microsoft Windows [Version 10.0.22000.795]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\IBIM>cd PS C:\Users\IBIM\Desktop\openxl_folder\openpy_env\Scripts>
+The syntax of the command is incorrect.
+
+C:\Users\IBIM>cd
+C:\Users\IBIM
+
+C:\Users\IBIM>PS C:\Users\IBIM\Desktop\openxl_folder\openpy_env\Scripts> cd
+'PS' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\IBIM>cd C:\Users\IBIM\Desktop\openxl_folder\openpy_env\Scripts>
+The syntax of the command is incorrect.
+
+C:\Users\IBIM>cd C:\Users\IBIM\Desktop\openxl_folder\openpy_env
+
+C:\Users\IBIM\Desktop\openxl_folder\openpy_env>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 388C-A0B1
+
+ Directory of C:\Users\IBIM\Desktop\openxl_folder\openpy_env
+
+08/08/2022  09:42    <DIR>          .
+08/08/2022  09:42    <DIR>          ..
+08/08/2022  09:42    <DIR>          Include
+08/08/2022  09:42    <DIR>          Lib
+08/08/2022  09:42               165 pyvenv.cfg
+08/08/2022  09:43    <DIR>          Scripts
+               1 File(s)            165 bytes
+               5 Dir(s)  382,518,054,912 bytes free
+
+C:\Users\IBIM\Desktop\openxl_folder\openpy_env>cd scripts
+
+C:\Users\IBIM\Desktop\openxl_folder\openpy_env\Scripts>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 388C-A0B1
+
+ Directory of C:\Users\IBIM\Desktop\openxl_folder\openpy_env\Scripts
+
+08/08/2022  09:43    <DIR>          .
+08/08/2022  09:42    <DIR>          ..
+08/08/2022  09:43             2,098 activate
+08/08/2022  09:43             1,027 activate.bat
+08/08/2022  09:43            24,227 Activate.ps1
+08/08/2022  09:43               393 deactivate.bat
+08/08/2022  09:43           107,912 pip.exe
+08/08/2022  09:43           107,912 pip3.10.exe
+08/08/2022  09:43           107,912 pip3.exe
+08/08/2022  09:42           266,664 python.exe
+08/08/2022  09:42           254,888 pythonw.exe
+               9 File(s)        873,033 bytes
+               2 Dir(s)  382,518,124,544 bytes free
+
+C:\Users\IBIM\Desktop\openxl_folder\openpy_env\Scripts>activate
+
+(openpy_env) C:\Users\IBIM\Desktop\openxl_folder\openpy_env\Scripts>pip list
+Package    Version
+---------- -------
+pip        22.2.1
+setuptools 63.2.0
+
+[notice] A new release of pip available: 22.2.1 -> 22.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(openpy_env) C:\Users\IBIM\Desktop\openxl_folder\openpy_env\Scripts>cd ../..
+
+(openpy_env) C:\Users\IBIM\Desktop\openxl_folder>pip list
+Package    Version
+---------- -------
+pip        22.2.1
+setuptools 63.2.0
+
+[notice] A new release of pip available: 22.2.1 -> 22.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(openpy_env) C:\Users\IBIM\Desktop\openxl_folder>pip install openpyxl
+Collecting openpyxl
+  Using cached openpyxl-3.0.10-py2.py3-none-any.whl (242 kB)
+Collecting et-xmlfile
+  Using cached et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.10
+
+[notice] A new release of pip available: 22.2.1 -> 22.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(openpy_env) C:\Users\IBIM\Desktop\openxl_folder>pip list
+Package    Version
+---------- -------
+et-xmlfile 1.1.0
+openpyxl   3.0.10
+pip        22.2.1
+setuptools 63.2.0
+
+[notice] A new release of pip available: 22.2.1 -> 22.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(openpy_env) C:\Users\IBIM\Desktop\openxl_folder>pip freeze > requirements.txt
+
+(openpy_env) C:\Users\IBIM\Desktop\openxl_folder>
